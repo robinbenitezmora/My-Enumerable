@@ -5,12 +5,13 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
-git clone https://github.com/robinbenitezmora/My-Enumerate in your terminal
+git clone https://github.com/robinbenitezmora/My-Enumerable in your terminal
 
 ### Prerequisites
 - Ruby
 - Git
-
+- VSCode
+- GitHub
 ### Setup
 - Clone the repository
 - Open the terminal
