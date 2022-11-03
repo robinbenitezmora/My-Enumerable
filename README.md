@@ -1,20 +1,20 @@
-# Decode a Morse code message
+# My Enumerable Methods
 
-> This is a program that decodes a Morse code message. It takes a string of dots and dashes and converts it to a string of letters.
+> In this project, We have created our own version of Ruby’s enumerable methods.
 
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
-git clone https://github.com/robinbenitezmora/Decode-Morse-Code in your terminal
+git clone https://github.com/robinbenitezmora/My-Enumerate in your terminal
 
-Then, using your IRB program, you can decode a message like this, using the decode_all method:
-```
-puts decode_all(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
-# Output: => "A BOX FULL OF RUBIES"
-```
-## Decoding morse code
+### Prerequisites
+- Ruby
+- Git
 
-![decoding-morse](https://user-images.githubusercontent.com/69157785/199613411-fdc7c76b-fe76-4717-8ab6-471da6374a22.png)
+### Setup
+- Clone the repository
+- Open the terminal
+- Run the file
 
 ## Authors
 
