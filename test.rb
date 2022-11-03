@@ -1,4 +1,4 @@
-require_relative './list.rb'
+require_relative './list'
 
 list = MyList.new(1, 2, 3, 4)
 
@@ -11,4 +11,4 @@ list.any? { |e| e == 2 } # => true
 list.any? { |e| e == 5 } # => false
 
 # Test 3
-list.filter{ |e| e.even? } # => [2, 4]
+list.filter { |e| e.even? } # => [2, 4]

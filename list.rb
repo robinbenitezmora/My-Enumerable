@@ -1,8 +1,8 @@
-require_relative './enumerable.rb'
+require_relative './enumerable'
 
 class MyList
   include MyEnumerable
-  
+
   def initialize(*args)
     @list = args
   end
@@ -11,5 +11,5 @@ class MyList
     (0...@list.length).each do |i|
       yield @list[i]
     end
-  end  
+  end
 end
