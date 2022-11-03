@@ -3,8 +3,8 @@ require_relative './enumerable.rb'
 class MyList
   include MyEnumerable
   
-  def initialize
-    @list = []
+  def initialize(*args)
+    @list = args
   end
 
   def each
